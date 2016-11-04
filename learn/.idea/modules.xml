@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AopInterceptor/AopInterceptor.iml" filepath="$PROJECT_DIR$/AopInterceptor/AopInterceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aopexception/aopexception.iml" filepath="$PROJECT_DIR$/aopexception/aopexception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aopprivelege/aopprivelege.iml" filepath="$PROJECT_DIR$/aopprivelege/aopprivelege.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aopsalary/aopsalary.iml" filepath="$PROJECT_DIR$/aopsalary/aopsalary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aoptime/aoptime.iml" filepath="$PROJECT_DIR$/aoptime/aoptime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cglibproxy/cglibproxy.iml" filepath="$PROJECT_DIR$/cglibproxy/cglibproxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn.iml" filepath="$PROJECT_DIR$/learn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamicproxy/learn-dynamicproxy.iml" filepath="$PROJECT_DIR$/dynamicproxy/learn-dynamicproxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/staticproxy/staticproxy.iml" filepath="$PROJECT_DIR$/staticproxy/staticproxy.iml" />
+    </modules>
+  </component>
+</project>

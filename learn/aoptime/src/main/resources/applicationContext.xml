@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	           http://www.springframework.org/schema/aop
+	           http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
+    <bean id="personDao" class="com.elechen.aop.time.dao.impl.PersonDaoImpl"/>
+
+    <bean id="personService" class="com.elechen.aop.time.service.impl.PersonServiceImpl">
+        <property name="personDao" ref="personDao"/>
+    </bean>
+
+    <bean id="personAction" class="com.elechen.aop.time.action.PersonAction">
+        <property name="personService" ref="personService"/>
+    </bean>
+
+
+    <bean id="executionTime" class="com.elechen.aop.time.executiontime.ExecutionTime"/>
+
+    <aop:config>
+        <aop:pointcut id="perform" expression=" execution(* com.elechen.aop.time..*.*(..)) "/>
+
+        <aop:aspect ref="executionTime">
+            <aop:around method="timeCost" pointcut-ref="perform"/>
+        </aop:aspect>
+    </aop:config>
+</beans>
+    
+    
+    

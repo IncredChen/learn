@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="aopAnnotation" />
         <module name="aopexception" />
         <module name="AopInterceptor" />
         <module name="aopprivelege" />
@@ -32,6 +33,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="aopAnnotation" target="1.5" />
       <module name="aopexception" target="1.5" />
       <module name="AopInterceptor" target="1.5" />
       <module name="aopprivelege" target="1.5" />

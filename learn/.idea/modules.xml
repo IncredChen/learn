@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AopInterceptor/AopInterceptor.iml" filepath="$PROJECT_DIR$/AopInterceptor/AopInterceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aopAnnotation/aopAnnotation.iml" filepath="$PROJECT_DIR$/aopAnnotation/aopAnnotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/aopexception/aopexception.iml" filepath="$PROJECT_DIR$/aopexception/aopexception.iml" />
       <module fileurl="file://$PROJECT_DIR$/aopprivelege/aopprivelege.iml" filepath="$PROJECT_DIR$/aopprivelege/aopprivelege.iml" />
       <module fileurl="file://$PROJECT_DIR$/aopsalary/aopsalary.iml" filepath="$PROJECT_DIR$/aopsalary/aopsalary.iml" />

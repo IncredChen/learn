@@ -17,12 +17,13 @@
         <module>aopprivelege</module>
         <module>aoptime</module>
         <module>aopsalary</module>
+        <module>aopAnnotation</module>
     </modules>
 
     <properties>
         <spring-context-version>3.2.17.RELEASE</spring-context-version>
         <junit-version>4.10</junit-version>
-        <aspectj-version>1.5.4</aspectj-version>
+        <aspectj-version>1.7.4</aspectj-version>
         <aopalliance-version>1.0</aopalliance-version>
         <modules-version>3.8.1</modules-version>
         <cglib-version>2.2.2</cglib-version>

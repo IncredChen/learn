@@ -5,6 +5,19 @@
 <struts>
 
 	<package name="p2" namespace="/" extends="struts-default">
+		<interceptors>
+			<interceptor name="my1" class="com.elected.struts4.MyIntercepter"/>
+			<interceptor name="my2" class="com.elected.struts4.MyIntercepter2"/>
+			<interceptor name="checklogin" class="com.elected.struts5.CheckLogin"/>
+		</interceptors>
+	<interceptors>
+		<interceptor-stack name="mystack">
+			<interceptor-ref name="checklogin"/>
+			<interceptor-ref name="defaultStack"/>
+		</interceptor-stack>
+	</interceptors>
+
+
 		<action name="login" class="com.elected.struts2.LoginAction" method="login">
 			<result name="success">success.html</result>
 			<result name="error">error.html</result>
@@ -14,6 +27,23 @@
 			<result name="success">success.html</result>
 		</action>
 
+		<action name="up" class="com.elected.struts3.FileUpLoad" method="fileUpload">
+			<result name="success">success.html</result>
+		</action>
+
+		<action name="myTest_*" class="com.elected.struts4.action.MyAction" method="{1}">
+			<interceptor-ref name="my1"/>
+			<interceptor-ref name="my2"/>
+			<result name="success">success.html</result>
+		</action>
+
+		<action name="login01" class="com.elected.struts5.Login" method="login">
+
+		</action>
+
+		<action name="user_*" class="com.elected.struts5.UserAction" method="{1}">
+			<interceptor-ref name="mystack"/>
+		</action>
 	</package>
 
 </struts>

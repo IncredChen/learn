@@ -29,8 +29,8 @@
     <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.10" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.1" level="project" />
-    <orderEntry type="library" name="Maven: aspectj:aspectjrt:1.7.4" level="project" />
-    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.7.4" level="project" />
+    <orderEntry type="library" name="Maven: aspectj:aspectjrt:1.8.9" level="project" />
+    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.9" level="project" />
     <orderEntry type="library" name="Maven: org.mule.modules:mule-module-spring-config:3.8.1" level="project" />
     <orderEntry type="library" name="Maven: org.mule:mule-core:3.8.1" level="project" />
     <orderEntry type="library" name="Maven: org.mule.extensions:mule-extensions-api:1.0.0-alpha-1" level="project" />

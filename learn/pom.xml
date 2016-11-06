@@ -23,7 +23,7 @@
     <properties>
         <spring-context-version>3.2.17.RELEASE</spring-context-version>
         <junit-version>4.10</junit-version>
-        <aspectj-version>1.7.4</aspectj-version>
+        <aspectj-version>1.8.9</aspectj-version>
         <aopalliance-version>1.0</aopalliance-version>
         <modules-version>3.8.1</modules-version>
         <cglib-version>2.2.2</cglib-version>

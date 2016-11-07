@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--mapper命名空间 -->
+<mapper namespace="test">
+    <!--表示此sql查询,内容都会封装在Mapperd Statment中-->
+    <!--id 是 Statment 的id 用于标识select 定义的sql 且不能重复-->
+    <!--#{} 标识 占位符
+        parameterType 标识输入参数的类型
+        resultType 标识输出结果集单条记录所要映射的java的类型，select查询字段名和resultType中属性名相同，才能映射成功
+        #{value} value标识输入参数的变量，基本类型，用#{}占位符，变量名可以用value 或其他名称
+    -->
+
+    <!--查找-->
+    <select id="selectById" parameterType="int" resultType="com.elechen.learn.mybatis.first.po.User">
+      SELECT * FROM  USER WHERE id = #{value}
+    </select>
+
+    <select id="selectToList" parameterType="java.lang.String" resultType="com.elechen.learn.mybatis.first.po.User">
+        SELECT * FROM USER WHERE username LIKE #{value}
+    </select>
+
+    <!--
+
+        ${} 拼接
+    -->
+    <select id="selectToList2" parameterType="java.lang.String" resultType="com.elechen.learn.mybatis.first.po.User">
+        SELECT * FROM USER WHERE username LIKE '%${value}%'
+    </select>
+
+    <!--添加-->
+    <!--
+        1、基本数据类型。
+        2、返回主键（selectKey ）
+    -->
+
+    <!--uuid-->
+    <insert id="insertUser" parameterType="com.elechen.learn.mybatis.first.po.User">
+        INSERT  INTO USER(username,birthday,sex,address,detail,score)
+        VALUES (#{username},#{birthday},#{sex},#{address},#{detail},#{score})
+        <selectKey keyProperty="id" resultType="java.lang.Integer" order="AFTER">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+    </insert>
+
+
+</mapper>

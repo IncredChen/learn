@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
+
+
+    <!--
+        bean 配置
+    -->
+    <bean id="personDao" class="com.elechen.aop.exception.dao.impl.PersonDaoImpl">
+    </bean>
+
+    <bean id="personService" class="com.elechen.aop.exception.service.impl.PersonServiceImpl">
+        <property name="personDao" ref="personDao"/>
+    </bean>
+
+    <bean id="exceotion" class="com.elechen.aop.exception.aspect.ExceptionAspect">
+    </bean>
+
+    <aop:config>
+
+        <!-- 切入点表达式： 寻找的是目标类  -->
+        <aop:pointcut id="perform" expression=" execution(* com.elechen.aop.exception.service.impl.*.*(..))" />
+
+        <!-- 切面 -->
+        <aop:aspect ref="exceotion">
+            <!--<aop:before method="before" pointcut-ref="perform"/>-->
+            <aop:after-throwing method="throwingException" pointcut-ref="perform" throwing="ex"/>
+            <!--<aop:after method="finalm" pointcut-ref="perform"/>-->
+        </aop:aspect>
+
+    </aop:config>
+</beans>
+    
+    
+    

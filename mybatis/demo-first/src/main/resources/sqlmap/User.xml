@@ -44,5 +44,13 @@
         </selectKey>
     </insert>
 
+    <delete id="deleteUserById" parameterType="int">
+        DELETE FROM USER WHERE id=#{id}
+    </delete>
+
+    <update id="updateUserById" parameterType="com.elechen.learn.mybatis.first.po.User">
+        UPDATE USER SET username=#{username},birthday=#{birthday},sex=#{sex} WHERE id=#{id}
+    </update>
+
 
 </mapper>

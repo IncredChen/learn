@@ -35,6 +35,7 @@
         2、返回主键（selectKey ）
     -->
 
+    <!--uuid-->
     <insert id="insertUser" parameterType="com.elechen.learn.mybatis.first.po.User">
         INSERT  INTO USER(username,birthday,sex,address,detail,score)
         VALUES (#{username},#{birthday},#{sex},#{address},#{detail},#{score})
@@ -42,6 +43,14 @@
             SELECT LAST_INSERT_ID()
         </selectKey>
     </insert>
+
+    <delete id="deleteUserById" parameterType="int">
+        DELETE FROM USER WHERE id=#{id}
+    </delete>
+
+    <update id="updateUserById" parameterType="com.elechen.learn.mybatis.first.po.User">
+        UPDATE USER SET username=#{username},birthday=#{birthday},sex=#{sex} WHERE id=#{id}
+    </update>
 
 
 </mapper>

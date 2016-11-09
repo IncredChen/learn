@@ -1,4 +1,4 @@
-package com.elechen.learn.mybatis.first;
+package com.elechen.learn.mybatis.first.test;
 
 import com.elechen.learn.mybatis.first.po.User;
 import org.apache.ibatis.io.Resources;

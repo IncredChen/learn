@@ -19,7 +19,7 @@ public class FindUserByIdTest {
     private SqlSessionFactory sqlSessionFactory;
 
     @Before
-    public void serUp() throws IOException {
+    public void setUp() throws IOException {
         //配置文件名
         String resource = "SqlMapConfig.xml";
         //获取配置文件资源

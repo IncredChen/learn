@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>demo-first</module>
+        <module>demo-second</module>
     </modules>
 
     <properties>

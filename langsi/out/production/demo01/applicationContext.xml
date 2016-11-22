@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+    <!--setter方法注入-->
+    <bean id="user" class="com.elechen.spring.learn.User">
+        <property name="age" value="21"/>
+        <property name="name" value="陈象"/>
+    </bean>
+
+    <!--构造器注入（属性类型）-->
+    <bean id="user2" class="com.elechen.spring.learn.User">
+        <constructor-arg type="int" value="22"/>
+        <constructor-arg  type="java.lang.String" value="张聪聪"/>
+    </bean>
+
+    <!--构造器注入（构造函数参数下标）-->
+    <bean id="user3" class="com.elechen.spring.learn.User">
+        <constructor-arg index="0" value="23"/>
+        <constructor-arg index="1" value="陈象"/>
+    </bean>
+
+    <!--静态工厂方法-->
+    <bean id="user4" class="com.elechen.spring.learn.BeanFactory" factory-method="getBean"/>
+
+    <!--实例工厂方法-->
+    <bean id="factory2" class="com.elechen.spring.learn.BeanFactory2"/>
+
+    <bean id="user5" factory-bean="factory2" factory-method="getBean"/>
+
+
+    <bean id="userList" class="com.elechen.spring.learn.UserList">
+        <property name="userList">
+            <list>
+                <ref bean="user"/>
+                <ref bean="user2"/>
+                <ref bean="user3"/>
+            </list>
+        </property>
+    </bean>
+
+
+    <bean id="car" class="com.elechen.spring.learn.car.Car"/>
+
+    <bean id="audi" class="com.elechen.spring.learn.car.child.Audi" parent="car">
+        <property name="brand" value="奥迪"/>
+    </bean>
+
+    <bean id="bmw" class="com.elechen.spring.learn.car.child.BMW" parent="car">
+        <property name="brand" value="宝马"/>
+    </bean>
+</beans>

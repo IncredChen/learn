@@ -38,7 +38,7 @@
 
 		</action>
 
-		<action name="user_*" class="com.elected.struts5.UserAction" method="{1}">:
+		<action name="user_*" class="com.elected.struts5.UserAction" method="{1}">
 			<interceptor-ref name="mystack"/>
 		</action>
 	</package>

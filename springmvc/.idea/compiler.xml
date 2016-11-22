@@ -22,13 +22,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="firstmoodule" />
-        <module name="springmvc" />
+        <module name="demo01" />
+        <module name="springmvc_mybatis" />
+        <module name="ssm2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="firstmoodule" target="1.5" />
+      <module name="demo01" target="1.5" />
       <module name="springmvc" target="1.5" />
+      <module name="springmvc_mybatis" target="1.6" />
+      <module name="ssm2" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

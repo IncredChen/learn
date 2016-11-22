@@ -6,6 +6,7 @@ import org.aspectj.lang.JoinPoint;
  * Created by Incredile on 2016/11/1.
  */
 public class ExceptionAspect {
+	
     public void throwingException(JoinPoint joinPoint, Throwable ex){
         System.out.println(ex.getMessage());
     }

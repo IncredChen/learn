@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<beans>
+    <bean id="dog" class="com.elechen.spring.Dog"></bean>
+    <bean id="user" class="com.elechen.spring.User">
+        <property name="age" value="21"/>
+        <property name="name" value="陈象"/>
+        <property name="dog" ref="dog"/>
+    </bean>
+
+
+    <bean id="cat" class="com.elechen.spring.Cat"/>
+    <bean id="people" class="com.elechen.spring.People">
+        <property name="animal" ref="cat" />
+    </bean>
+</beans>

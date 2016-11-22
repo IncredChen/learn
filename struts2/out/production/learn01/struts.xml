@@ -9,14 +9,11 @@
 			<interceptor name="my1" class="com.elected.struts4.MyIntercepter"/>
 			<interceptor name="my2" class="com.elected.struts4.MyIntercepter2"/>
 			<interceptor name="checklogin" class="com.elected.struts5.CheckLogin"/>
+			<interceptor-stack name="mystack">
+				<interceptor-ref name="checklogin"/>
+				<interceptor-ref name="defaultStack"/>
+			</interceptor-stack>
 		</interceptors>
-	<interceptors>
-		<interceptor-stack name="mystack">
-			<interceptor-ref name="checklogin"/>
-			<interceptor-ref name="defaultStack"/>
-		</interceptor-stack>
-	</interceptors>
-
 
 		<action name="login" class="com.elected.struts2.LoginAction" method="login">
 			<result name="success">success.html</result>

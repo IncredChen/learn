@@ -6,6 +6,7 @@ import com.elechen.spring.springmvc.ssm.service.ItemsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -21,13 +22,14 @@ public class ItemsController {
     @Autowired
     private ItemsService itemsService;
 
-    @RequestMapping("/quertItems")
+    @RequestMapping(value = "/quertItems",method = RequestMethod.GET)
     public ModelAndView findItemsList() throws Exception{
 
         List<ItemsCustom> itemList = itemsService.findItemsList(null);
         ModelAndView mv = new ModelAndView();
         mv.addObject("itemList",itemList);
-        mv.setViewName("itemList");
+        mv.setViewName("items/itemsList");
         return mv;
     }
+
 }

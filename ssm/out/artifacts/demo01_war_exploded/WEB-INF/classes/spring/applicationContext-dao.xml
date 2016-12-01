@@ -12,7 +12,6 @@
 		http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
 		http://www.springframework.org/schema/tx
 		http://www.springframework.org/schema/tx/spring-tx-3.2.xsd ">
-    <!-- 加载配置文件 -->
     <context:property-placeholder location="classpath:db.properties"/>
 
     <!--mapper 扫描器-->
@@ -39,6 +38,9 @@
         <property name="dataSource" ref="dataSource" />
         <!-- 加载mybatis的全局配置文件 -->
         <property name="configLocation" value="classpath:mybatis/SqlMapperConfig.xml" />
+        <property name="mapperLocations" value="classpath:com.elechen.ssm.mapper/*.xml"/>
     </bean>
+
+    <context:component-scan base-package="com.elechen.ssm.po"/>
 
 </beans>

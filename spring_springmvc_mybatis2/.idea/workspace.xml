@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d356855e-2b2e-426a-bc29-2705cd746878" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/activation-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/commons-codec-1.9.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/commons-dbcp-1.2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/commons-fileupload-1.3.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/commons-io-2.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/commons-logging-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/commons-pool-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/fastjson-1.1.41.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/jackson-annotations-2.8.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/jackson-core-2.8.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/jackson-core-asl-1.9.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/jackson-databind-2.8.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/javaee-api-7.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/javax.mail-1.5.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/jstl-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/log4j-1.2.17.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/mybatis-3.2.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/mybatis-spring-1.2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/mysql-connector-java-5.1.29.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/slf4j-api-1.7.18.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/slf4j-log4j12-1.7.18.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/spring-aop-4.2.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/spring-beans-4.2.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/spring-context-4.2.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/spring-context-support-4.2.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/spring-core-4.2.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/spring-expression-4.2.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/spring-jdbc-4.2.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/spring-oxm-4.2.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/spring-test-4.2.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/spring-tx-4.2.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/spring-web-4.2.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/lib/spring-webmvc-4.2.5.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/controller/UserController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/mapper/UserMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/po/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/po/UserCustom.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/po/UserQueryVo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/service/UserService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/service/impl/UserServceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/test/HelloVelocity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/classes/com/elechen/ssm/controller/UserController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/classes/com/elechen/ssm/mapper/UserMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/classes/com/elechen/ssm/po/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/classes/com/elechen/ssm/po/UserCustom.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/classes/com/elechen/ssm/po/UserQueryVo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/classes/com/elechen/ssm/service/UserService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/classes/com/elechen/ssm/service/impl/UserServceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/classes/com/elechen/ssm/test/HelloVelocity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/aspectjweaver-1.8.9-atlassian-1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/commons-collections-3.2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/commons-dbcp-1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/commons-lang-2.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/commons-logging-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/commons-pool-1.5.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/jstl-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/log4j-1.2.9.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/mybatis-3.2.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/mybatis-spring-1.2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/mysql-connector-java-5.1.29.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/servlet-api-2.5.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/slf4j-api-1.6.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/spring-aop-3.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/spring-beans-3.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/spring-context-3.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/spring-context-support-3.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/spring-core-3.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/spring-expression-3.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/spring-jdbc-3.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/spring-oxm-3.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/spring-test-3.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/spring-tx-3.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/spring-web-3.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/spring-webmvc-3.2.4.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/lib/velocity-1.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/target/classes/com/elechen/ssm/interceptor/MyInterceptor1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/target/classes/com/elechen/ssm/interceptor/MyInterceptor2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/target/classes/com/elechen/ssm/mapper/ItemsMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com/elechen/ssm/interceptor/MyInterceptor1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com/elechen/ssm/interceptor/MyInterceptor2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com/elechen/ssm/mapper/ItemsMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mybatis/.idea/dataSources/e9faaa2a-894e-437a-ba8e-2f3529a2ed9f/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/.idea/libraries/lib.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/src/main/java/com/elechen/ssm/mapper/UserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/src/main/java/com/elechen/ssm/po/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/src/main/java/com/elechen/ssm/po/UserCustom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/src/main/java/com/elechen/ssm/po/UsersQueryVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/src/main/java/com/elechen/ssm/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/src/main/java/com/elechen/ssm/service/impl/UserServceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/src/main/main.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/src/main/resources/db.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/src/main/resources/mapper/UserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/src/main/resources/mybatis/sqlMapConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/src/main/resources/spring/applicationContext-dao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/classes/db.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/classes/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/classes/db.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/classes/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/classes/spring/applicationContext-service.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../spring_springmvc_mybatis/demo01/target/ssm-learn/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/demo01_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/demo01_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/f88c3da9-3762-4f8e-8a3f-20ee1fd660de.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/f88c3da9-3762-4f8e-8a3f-20ee1fd660de/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Incredile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_29.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9_atlassian_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/demo01.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/controller/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/mapper/UserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/po/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/po/UserCustom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/po/UserQueryVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/service/impl/UserServceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/test/HelloVelocity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/test/hellovelocity.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/resources/com/elechen/ssm/mapper/UserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/resources/db.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/resources/mybatis/sqlMapConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/resources/spring/applicationContext-dao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/resources/spring/applicationContext-service.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/resources/spring/springmvc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/webapp/WEB-INF/jsp/user/userInfo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/webapp/WEB-INF/jsp/user/userList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/webapp/WEB-INF/velocity.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/webapp/hello.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/mapper/UserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/classes/db.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/classes/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/classes/mybatis/sqlMapConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/classes/spring/applicationContext-dao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/classes/spring/applicationContext-service.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/classes/spring/springmvc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/classes/com/elechen/ssm/mapper/UserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/classes/db.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/classes/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/classes/mybatis/sqlMapConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/classes/spring/applicationContext-dao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/classes/spring/applicationContext-service.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/classes/spring/springmvc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/jsp/user/userInfo.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/jsp/user/userList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/velocity.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/hello.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/artifacts/demo01_war_exploded/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/velocity.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/.idea/artifacts/ssm_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/.idea/dataSources.local.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/.idea/dataSources/9dab97ba-0b44-4ffd-9613-8029f920b305.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/.idea/dataSources/9dab97ba-0b44-4ffd-9613-8029f920b305/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/.idea/dictionaries/Incredile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_hibernate_hibernate_validator_4_1_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/interceptor/MyInterceptor1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/interceptor/MyInterceptor2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/mapper/ItemsMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/resources/CustomValidationMessages.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/resources/com.elechen.ssm.mapper/ItemsMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/resources/com.elechen.ssm.mapper/ItemsMapperCustom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/web/WEB-INF/jsp/items/deleteItems.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/web/WEB-INF/jsp/items/editItemsQuery.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/web/WEB-INF/jsp/items/editItems_pic.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/web/WEB-INF/jsp/items/itemsList.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/web/WEB-INF/jsp/success.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/target/classes/CustomValidationMessages.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/target/classes/com.elechen.ssm.mapper/ItemsMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/target/classes/com.elechen.ssm.mapper/ItemsMapperCustom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/demo01/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/CustomValidationMessages.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com.elechen.ssm.mapper/ItemsMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com.elechen.ssm.mapper/ItemsMapperCustom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/jsp/items/deleteItems.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/jsp/items/editItemsQuery.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/jsp/items/editItems_pic.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_maven_sxl/.idea/artifacts/test_maven_sxl_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_maven_sxl/.idea/artifacts/test_maven_sxl_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_maven_sxl/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_maven_sxl/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_maven_sxl/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_maven_sxl/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_maven_sxl/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_maven_sxl/test_maven_sxl.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/artifacts/test_ssm.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/artifacts/test_ssm_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__log4j_log4j_1_2_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_29.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_9_atlassian_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_mybatis_mybatis_3_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_springframework_spring_aop_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_springframework_spring_beans_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_springframework_spring_context_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_springframework_spring_context_support_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_springframework_spring_core_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_springframework_spring_expression_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_springframework_spring_jdbc_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_springframework_spring_oxm_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_springframework_spring_test_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_springframework_spring_tx_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_springframework_spring_web_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/libraries/Maven__org_springframework_spring_webmvc_3_2_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../test_ssm/test_ssm.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/mapper/ItemsMapperCustom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/demo01/web/WEB-INF/jsp/items/itemsList.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ssm/demo01/web/WEB-INF/jsp/success.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/target/classes/com/elechen/ssm/controller/ItemsController.class" afterPath="$PROJECT_DIR$/../ssm/demo01/target/classes/com/elechen/ssm/controller/ItemsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/target/classes/com/elechen/ssm/mapper/ItemsMapperCustom.class" afterPath="$PROJECT_DIR$/../ssm/demo01/target/classes/com/elechen/ssm/mapper/ItemsMapperCustom.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/target/classes/com/elechen/ssm/po/Items.class" afterPath="$PROJECT_DIR$/../ssm/demo01/target/classes/com/elechen/ssm/po/Items.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/target/classes/com/elechen/ssm/po/ItemsQueryVo.class" afterPath="$PROJECT_DIR$/../ssm/demo01/target/classes/com/elechen/ssm/po/ItemsQueryVo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/target/classes/com/elechen/ssm/service/ItemsService.class" afterPath="$PROJECT_DIR$/../ssm/demo01/target/classes/com/elechen/ssm/service/ItemsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/target/classes/com/elechen/ssm/service/impl/ItemServiceImpl.class" afterPath="$PROJECT_DIR$/../ssm/demo01/target/classes/com/elechen/ssm/service/impl/ItemServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com/elechen/ssm/controller/ItemsController.class" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com/elechen/ssm/controller/ItemsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com/elechen/ssm/mapper/ItemsMapperCustom.class" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com/elechen/ssm/mapper/ItemsMapperCustom.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com/elechen/ssm/po/Items.class" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com/elechen/ssm/po/Items.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com/elechen/ssm/po/ItemsQueryVo.class" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com/elechen/ssm/po/ItemsQueryVo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com/elechen/ssm/service/ItemsService.class" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com/elechen/ssm/service/ItemsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com/elechen/ssm/service/impl/ItemServiceImpl.class" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/com/elechen/ssm/service/impl/ItemServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatis/.idea/misc.xml" afterPath="$PROJECT_DIR$/../mybatis/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mybatis/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mybatis/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spring-springmvc-mybatis/ssm_template/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../spring-springmvc-mybatis/ssm_template/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../springmvc/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../springmvc/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/.idea/misc.xml" afterPath="$PROJECT_DIR$/../ssm/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ssm/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/demo01.iml" afterPath="$PROJECT_DIR$/../ssm/demo01/demo01.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/pom.xml" afterPath="$PROJECT_DIR$/../ssm/demo01/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/controller/ItemsController.java" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/controller/ItemsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/mapper/ItemsMapperCustom.java" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/mapper/ItemsMapperCustom.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/po/Items.java" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/po/Items.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/po/ItemsQueryVo.java" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/po/ItemsQueryVo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/service/ItemsService.java" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/service/ItemsService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/service/impl/ItemServiceImpl.java" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/java/com/elechen/ssm/service/impl/ItemServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/src/main/resources/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/resources/spring/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/src/main/resources/spring/springmvc.xml" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/resources/spring/springmvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/target/classes/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/../ssm/demo01/target/classes/spring/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/demo01/target/classes/spring/springmvc.xml" afterPath="$PROJECT_DIR$/../ssm/demo01/target/classes/spring/springmvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/spring/applicationContext-dao.xml" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/spring/applicationContext-dao.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/spring/springmvc.xml" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/classes/spring/springmvc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/jsp/items/editItems.jsp" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/jsp/items/editItems.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/jsp/items/itemsList.jsp" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/jsp/items/itemsList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/jsp/success.jsp" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/jsp/success.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/../ssm/out/artifacts/demo01_war_exploded/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ssm/pom.xml" afterPath="$PROJECT_DIR$/../ssm/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../ssm/demo01/web/WEB-INF/jsp/items/editItems.jsp" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/web/WEB-INF/jsp/items/editItems.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../ssm/demo01/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/web.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../ssm/demo01/web/index.jsp" afterPath="$PROJECT_DIR$/../ssm/demo01/src/main/web/index.jsp" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/demo01/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="test@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="spring_springmvc_mybatis2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userList.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo01/src/main/webapp/WEB-INF/jsp/user/userList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo01/src/main/resources/com/elechen/ssm/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+              <folding>
+                <marker date="1479991818046" expanded="true" signature="305:323" ph="SELECT * fro... user" />
+                <marker date="1479991818046" expanded="true" signature="455:490" ph="SELECT * fro... user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo01/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-dao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo01/src/main/resources/spring/applicationContext-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo01/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="132" column="9" lean-forward="false" selection-start-line="132" selection-start-column="9" selection-end-line="132" selection-end-column="9" />
+              <folding>
+                <marker date="1480574156868" expanded="true" signature="5056:5065" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-dao.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo01/target/classes/spring/applicationContext-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="347">
+              <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo01/target/classes/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserCustom.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/po/UserCustom.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/po/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#216#217#0" expanded="false" />
+                <element signature="e#243#244#0" expanded="false" />
+                <element signature="e#283#284#0" expanded="false" />
+                <element signature="e#315#316#0" expanded="false" />
+                <element signature="e#342#343#0" expanded="false" />
+                <element signature="e#368#369#0" expanded="false" />
+                <element signature="e#403#404#0" expanded="false" />
+                <element signature="e#433#434#0" expanded="false" />
+                <element signature="e#463#464#0" expanded="false" />
+                <element signature="e#489#490#0" expanded="false" />
+                <element signature="e#527#528#0" expanded="false" />
+                <element signature="e#557#558#0" expanded="false" />
+                <element signature="e#583#584#0" expanded="false" />
+                <element signature="e#608#609#0" expanded="false" />
+                <element signature="e#641#642#0" expanded="false" />
+                <element signature="e#669#670#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demo01/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/demo01/src/main/resources/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/service/UserService.java" />
+        <option value="$PROJECT_DIR$/demo01/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/service/impl/UserServceImpl.java" />
+        <option value="$PROJECT_DIR$/demo01/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/demo01/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/demo01/src/main/webapp/hello.vm" />
+        <option value="$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/test/helloVelocity.java" />
+        <option value="$PROJECT_DIR$/demo01/src/main/webapp/WEB-INF/velocity.properties" />
+        <option value="$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/test/HelloVelocity.java" />
+        <option value="$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/demo01/src/main/webapp/WEB-INF/jsp/user/userInfo.jsp" />
+        <option value="$PROJECT_DIR$/demo01/src/main/webapp/WEB-INF/jsp/user/userList.jsp" />
+        <option value="$PROJECT_DIR$/demo01/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/demo01/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ssm-learn Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ssm-learn Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ssm-learn Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>WebProperties</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring_springmvc_mybatis2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring_springmvc_mybatis2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring_springmvc_mybatis2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring_springmvc_mybatis2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo01" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="SearchEverywhereHistoryKey" value="conversionService&#9;FILE&#9;jar://D:/jar_repo/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar!/org/springframework/core/convert/ConversionService.class" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ssm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaWorkSpace\spring_springmvc_mybatis2\demo01\src\main\java\com\elechen\ssm\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaWorkSpace\spring_springmvc_mybatis2\demo01\src\main\resources\mapper" />
+      <recent name="D:\IdeaWorkSpace\spring_springmvc_mybatis2\demo01\src\main\resources" />
+      <recent name="D:\IdeaWorkSpace\spring_springmvc_mybatis2\demo01\src\main\resources\com.elechen.ssm.mapper" />
+      <recent name="D:\IdeaWorkSpace\spring_springmvc_mybatis2\demo01\src\main\mapper" />
+      <recent name="D:\IdeaWorkSpace\spring_springmvc_mybatis2\demo01\src\main\mapper\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat">
+    <configuration default="false" name="HelloVelocity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.elechen.ssm.test.HelloVelocity" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="demo01" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="demo01" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.8" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="demo01:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring_springmvc_mybatis2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="14267" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="demo01:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
+      <item index="1" class="java.lang.String" itemvalue="Application.HelloVelocity" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.HelloVelocity" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d356855e-2b2e-426a-bc29-2705cd746878" name="Default" comment="" />
+      <created>1479965152253</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1479965152253</updated>
+      <workItem from="1479965161178" duration="501000" />
+      <workItem from="1479965691882" duration="1827000" />
+      <workItem from="1479973184264" duration="24778000" />
+      <workItem from="1480082314589" duration="3121000" />
+      <workItem from="1480089009472" duration="4388000" />
+      <workItem from="1480126355448" duration="1253000" />
+      <workItem from="1480133539642" duration="177000" />
+      <workItem from="1480316376734" duration="25000" />
+      <workItem from="1480349396346" duration="24000" />
+      <workItem from="1480488395375" duration="1372000" />
+      <workItem from="1480512620400" duration="41000" />
+      <workItem from="1480573634145" duration="44000" />
+      <workItem from="1480573872086" duration="52000" />
+      <workItem from="1480574143874" duration="1664000" />
+      <workItem from="1480576719742" duration="247000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="39514000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3310811" sideWeight="0.50213677" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13728632" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25106838" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13087606" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5033784" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3310811" sideWeight="0.49786323" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/po/UserCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/po/UserQueryVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/service/impl/UserServceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4752">
+          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+          <folding>
+            <marker date="1480574156868" expanded="true" signature="5056:5065" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/demo01.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/demo01.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE.jar!/org/springframework/core/convert/ConversionService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.2.5.RELEASE/spring-core-4.2.5.RELEASE-sources.jar!/org/springframework/core/convert/ConversionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-642">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/target/ssm-learn/WEB-INF/jsp/user/userList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/target/classes/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d10cb4df/f88c3da9-3762-4f8e-8a3f-20ee1fd660de/test.teacher">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar!/org/apache/ibatis/binding/MapperMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="35" column="74" lean-forward="false" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d10cb4df/f88c3da9-3762-4f8e-8a3f-20ee1fd660de/test.user">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.2.4/mybatis-3.2.4-sources.jar!/org/apache/ibatis/binding/MapperMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-347">
+          <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/mapper/UserMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/service/impl/UserServceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/controller/UserController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/service/UserService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/resources/mybatis/sqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/service/impl/UserServceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/po/UserQueryVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/po/User.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-263">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/po/UserQueryVo.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/target/classes/com/elechen/ssm/po/UserCustom.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/webapp/WEB-INF/velocity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/test/HelloVelocity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/test/hellovelocity.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/webapp/hello.vm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/webapp/WEB-INF/jsp/user/userInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/resources/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="23" column="82" lean-forward="false" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.29/mysql-connector-java-5.1.29.jar!/com/mysql/jdbc/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/po/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#216#217#0" expanded="false" />
+            <element signature="e#243#244#0" expanded="false" />
+            <element signature="e#283#284#0" expanded="false" />
+            <element signature="e#315#316#0" expanded="false" />
+            <element signature="e#342#343#0" expanded="false" />
+            <element signature="e#368#369#0" expanded="false" />
+            <element signature="e#403#404#0" expanded="false" />
+            <element signature="e#433#434#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
+            <element signature="e#527#528#0" expanded="false" />
+            <element signature="e#557#558#0" expanded="false" />
+            <element signature="e#583#584#0" expanded="false" />
+            <element signature="e#608#609#0" expanded="false" />
+            <element signature="e#641#642#0" expanded="false" />
+            <element signature="e#669#670#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/po/UserCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/java/com/elechen/ssm/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/webapp/WEB-INF/jsp/user/userList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/resources/com/elechen/ssm/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <marker date="1479991818046" expanded="true" signature="305:323" ph="SELECT * fro... user" />
+            <marker date="1479991818046" expanded="true" signature="455:490" ph="SELECT * fro... user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="132" column="9" lean-forward="false" selection-start-line="132" selection-start-column="9" selection-end-line="132" selection-end-column="9" />
+          <folding>
+            <marker date="1480574156868" expanded="true" signature="5056:5065" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/target/classes/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo01/target/classes/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="20" column="21" lean-forward="false" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>demo01:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (demo01)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|demo01</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -28,8 +28,8 @@
     比如json转换解析器就默认加载了，如果使用mvc:annotation-driven不用配置上边的RequestMappingHandlerMapping和RequestMappingHandlerAdapter
     实际开发时使用mvc:annotation-driven
      -->
-    <mvc:annotation-driven conversion-service="conversionService"/>
-
+    <mvc:annotation-driven conversion-service="conversionService"
+                           validator="validator"/>
 
     <!-- 视图解析器
     解析jsp解析，默认使用jstl标签，classpath下的得有jstl的包
@@ -51,4 +51,38 @@
             </set>
         </property>
     </bean>
+
+    <bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+        <property name="providerClass" value="org.hibernate.validator.HibernateValidator"/>
+        <property name="validationMessageSource" ref="messageSource"/>
+    </bean>
+
+    <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+        <property name="basenames">
+            <list>
+                <value>calsspath：CustomValidationMessages</value>
+            </list>
+        </property>
+        <property name="fileEncodings" value="utf-8"/>
+        <property name="cacheSeconds" value="120"/>
+    </bean>
+
+    <!--文件上传解析器  multiprat类型解析器-->
+    <bean id="multipartResover" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <property name="maxUploadSize">
+            <value>5242880</value>
+        </property>
+    </bean>
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.elechen.ssm.interceptor.MyInterceptor1"/>
+        </mvc:interceptor>
+
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.elechen.ssm.interceptor.MyInterceptor2"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
 </beans>

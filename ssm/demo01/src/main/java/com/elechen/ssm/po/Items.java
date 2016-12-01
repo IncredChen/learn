@@ -1,17 +1,17 @@
 package com.elechen.ssm.po;
 
-import java.util.Date;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 public class Items {
     private Integer id;
 
+    @Size(min = 1,max = 30,message = "{item.anme.length}")
     private String name;
-
+    @NotNull(message = "{item.price.isNull}")
     private Float price;
 
     private String pic;
-
-    private Date createtime;
 
     private String detail;
 
@@ -28,7 +28,7 @@ public class Items {
     }
 
     public void setName(String name) {
-        this.name = name == null ? null : name.trim();
+        this.name = name;
     }
 
     public Float getPrice() {
@@ -44,15 +44,7 @@ public class Items {
     }
 
     public void setPic(String pic) {
-        this.pic = pic == null ? null : pic.trim();
-    }
-
-    public Date getCreatetime() {
-        return createtime;
-    }
-
-    public void setCreatetime(Date createtime) {
-        this.createtime = createtime;
+        this.pic = pic;
     }
 
     public String getDetail() {
@@ -60,6 +52,6 @@ public class Items {
     }
 
     public void setDetail(String detail) {
-        this.detail = detail == null ? null : detail.trim();
+        this.detail = detail;
     }
 }

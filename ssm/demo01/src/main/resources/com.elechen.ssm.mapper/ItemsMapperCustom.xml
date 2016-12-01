@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.elechen.ssm.mapper.ItemsMapperCustom">
+
+    <sql id="query_items_where">
+        <!-- 动态sql -->
+        <if test="itemsCustom!=null">
+            <if test="itemsCustom.name!=null and itemsCustom.name!=''">
+                item.name LIKE '%${itemsCustom.name}%'
+            </if>
+        </if>
+    </sql>
+
+    <sql id="update_by_id">
+        <if test="itemsQueryVo!=null and itemsQueryVo.item!=null " >
+            <if test="itemsQueryVo.item.id！=null and itemsQueryVo.item !=''">
+                items.id = itemsQueryVo.item.id
+            </if>
+        </if>
+    </sql>
+
+    <sql id="set_items_all">
+        <set>
+            <if test="items!=null">
+                <if test="items.name！=null and items.name !=''">
+                    items.name = #{items.name}
+                </if>
+                <if test="items.price！=null and items.price !=''">
+                    items.price = #{items.price}
+                </if>
+                <if test="items.name！=null and items.name !=''">
+                    items.name = #{users.name}
+                </if>
+                <if test="items.detail！=null and item.sdetail !=''">
+                    items.detail = #{items.detail}
+                </if>
+            </if>
+        </set>
+    </sql>
+
+    <select id="findItemsList" parameterType="com.elechen.ssm.po.ItemsQueryVo"
+            resultType="com.elechen.ssm.po.ItemsCustom">
+        SELECT * FROM items
+        <where>
+            <include refid="query_items_where"></include>
+        </where>
+    </select>
+
+    <select id="findItemById" parameterType="int" resultType="itemsCustom">
+        SELECT * FROM items WHERE 1=1
+        <if test="id!=null">
+            and id = #{id}
+        </if>
+    </select>
+
+
+</mapper>

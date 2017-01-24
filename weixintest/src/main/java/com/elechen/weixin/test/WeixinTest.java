@@ -38,7 +38,10 @@ public class WeixinTest extends HttpServlet{
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         resp.setCharacterEncoding("UTF-8");
+        req.setCharacterEncoding("UTF-8");
+        String remsg = null;
         Map<String,String> map = MessageUtil.xmlToMap(req);
         PrintWriter pw = resp.getWriter();
         String toUserName = map.get("ToUserName");
@@ -46,15 +49,25 @@ public class WeixinTest extends HttpServlet{
         String msgType = map.get("MsgType");
         String content = map.get("Content");
 
-        String remsg = null;
-        if ("text".equals(msgType)){
-            TextMessage msg = new TextMessage();
-            msg.setToUserName(fromUserName);
-            msg.setFromUserName(toUserName);
-            msg.setMsgType("text");
-            msg.setCreateTime(new Date().getTime());
-            msg.setContent("你发的是这："+content);
-            remsg = MessageUtil.textToxml(msg);
+        System.out.println("msgtype: "+msgType);
+        if (MessageUtil.MESSAGE_TEXT.equals(msgType)){
+            if("1".equals(content)){
+                remsg = MessageUtil.initText(fromUserName,toUserName,MessageUtil.firstMenu());
+            }else if("2".equals(content)){
+                remsg = MessageUtil.initText(fromUserName,toUserName,MessageUtil.secondMenu());
+            }else if("?".equals(content)||"？".equals(content)){
+                remsg = MessageUtil.initText(fromUserName,toUserName,MessageUtil.menuText());
+            }else {
+                remsg = MessageUtil.initText(fromUserName,toUserName,"你发的是这："+content);
+            }
+        }else if(MessageUtil.MESSAGE_EVENT.equals(msgType)){
+            String eventType = map.get("event");
+            System.out.println("eventType: "+eventType);
+            if (MessageUtil.EVENT_SUBSCRIBE.equals(eventType)){
+                remsg = MessageUtil.initText(fromUserName,toUserName,MessageUtil.menuText());
+            }else if (MessageUtil.EVENT_UNSUBSCRIBE.equals(eventType)){
+                remsg = MessageUtil.initText(fromUserName,toUserName,"拜拜");
+            }
         }
         System.out.println(remsg);
         pw.print(remsg);

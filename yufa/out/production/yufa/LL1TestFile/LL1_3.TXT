@@ -1,0 +1,6 @@
+A->aT
+T->ABl
+T->@
+B->dF   
+F->bF
+F->@

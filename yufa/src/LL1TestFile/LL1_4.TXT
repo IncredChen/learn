@@ -1,0 +1,10 @@
+B->TC
+C->oTC
+C->@
+T->FD
+D->aFD
+D->@
+F->nF
+F->(B)
+F->t
+F->f

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/Parser.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/zxb/AnalysisStep.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/zxb/CheckSyntax.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/zxb/MainExe.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/zxb/Resource.java" charset="GBK" />
+  </component>
+</project>

@@ -1,0 +1,12 @@
+P->bTd
+T->SF
+F->;SF
+F->@
+S->N
+S->C
+N->a
+C->ID
+D->eS
+D->@
+I->ZN
+Z->ict

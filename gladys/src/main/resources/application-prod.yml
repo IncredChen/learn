@@ -1,0 +1,5 @@
+server:
+  port: 8081
+people:
+  name: elechen
+  age: 23

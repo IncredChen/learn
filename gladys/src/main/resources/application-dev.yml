@@ -1,0 +1,5 @@
+server:
+  port: 8080
+people:
+  name: gladys
+  age: 22
